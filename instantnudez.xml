@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="pixel-devices-blobs"
+          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
+          revision="eleven" />
+<remote name="pixel-devices"
+          fetch="https://github.com/PixelExperience-Devices"
+          revision="eleven" />
+<remote name="gitlab"
+          fetch="https://gitlab.com" />
+<remote name="kdrag0n"
+          fetch="https://github.com/kdrag0n" />
+  
+  <!-- InstantNoodle -->
+<project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="pixel-devices" revision="eleven"/>
+<project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="pixel-devices" revision="eleven"/>
+<project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="pixel-devices" revision="eleven"/>
+<project path="vendor/oneplus/instantnoodle" name="vendor_oneplus_instantnoodle" remote="pixel-devices-blobs" revision="eleven"/>
+
+<!-- If Needed -->
+<!-- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master"/> -->
+          
+</manifest>
