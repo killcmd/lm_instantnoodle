@@ -9,11 +9,12 @@
 <remote name="kdrag0n"
           fetch="https://github.com/kdrag0n" />
   
-  <!-- InstantNoodle LOS Base-->
+  <!-- InstantNoodle -->
 <project path="kernel/oneplus/sm8250" name="android_kernel_oneplus_sm8250" remote="LineageOS"/>
 <project path="device/oneplus/instantnoodle" name="android_device_oneplus_instantnoodle" remote="LineageOS"/>
 <project path="device/oneplus/sm8250-common" name="android_device_oneplus_sm8250-common" remote="LineageOS"/>
 <project path="device/oneplus/common" name="android_device_oneplus_common" remote="LineageOS"/>
+<project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom-caf_bootctrl" remote="LineageOS"/>
 <project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="Muppet"/>
 
 <!-- If Needed -->
