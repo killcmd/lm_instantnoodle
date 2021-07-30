@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="LineageOS"
-          fetch="https://github.com/LineageOS"
-          revision="lineage-18.1" />
-<remote name="Muppet"
-          fetch="https://github.com/TheMuppets"
-          revision="lineage-18.1" />
+<remote name="pixel-devices-blobs"
+          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
+          revision="eleven" />
+<remote name="pixel-devices"
+          fetch="https://github.com/PixelExperience-Devices"
+          revision="eleven" />
+<remote name="C-C"
+          fetch="https://github.com/Chandra-Chaganti"
+          revision="eleven" />
+<remote name="gitlab-source"
+          fetch="https://gitlab.com" />
 <remote name="kdrag0n"
           fetch="https://github.com/kdrag0n" />
   
   <!-- InstantNoodle -->
-<project path="kernel/oneplus/sm8250" name="android_kernel_oneplus_sm8250" remote="LineageOS"/>
-<project path="device/oneplus/instantnoodle" name="android_device_oneplus_instantnoodle" remote="LineageOS"/>
-<project path="device/oneplus/sm8250-common" name="android_device_oneplus_sm8250-common" remote="LineageOS"/>
-<project path="device/oneplus/common" name="android_device_oneplus_common" remote="LineageOS"/>
-<project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom-caf_bootctrl" remote="LineageOS"/>
-<project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="Muppet"/>
+<project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="pixel-devices" revision="eleven"/>
+<project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="pixel-devices" revision="eleven"/>
+<project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="pixel-devices" revision="eleven"/>
+<project path="device/oneplus/common" name="device_oneplus_common" remote="C-C" revision="eleven"/>
+<project path="vendor/oneplus/instantnoodle" name="vendor_oneplus_instantnoodle" remote="pixel-devices-blobs" revision="eleven"/>
+<project path="vendor/oneplus/sm8250-common" name="vendor_oneplus_sm8250-common" remote="pixel-devices-blobs" revision="eleven"/>
+<project path="vendor/oneplus/apps" name="Chandra-Chaganti/vendor_oneplus_apps" remote="gitlab-source" revision="eleven"/>
 
 <!-- If Needed -->
 <!-- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master"/> -->
