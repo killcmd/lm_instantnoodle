@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<remote name="lineage-18.1"
+          fetch="https://github.com/TheMuppets"
+          revision="lineage-18.1" />
 <remote name="AICP"
           fetch="https://github.com/AICP"
           revision="r11.1" />
