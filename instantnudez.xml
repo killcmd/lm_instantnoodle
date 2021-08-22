@@ -1,27 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="pixel-devices-blobs"
-          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
-          revision="eleven" />
-<remote name="pixel-devices"
-          fetch="https://github.com/PixelExperience-Devices"
-          revision="eleven" />
-<remote name="C-C"
-          fetch="https://github.com/Chandra-Chaganti"
-          revision="eleven" />
-<remote name="gitlab-source"
-          fetch="https://gitlab.com" />
+<remote name="AICP"
+          fetch="https://github.com/AICP"
+          revision="r11.1" />
+<remote name="camera"
+          fetch="https://gitlab.com/hermesconrad/vendor/vendor_opcamera"
+          revision="r11.1-oneplus8" />
 <remote name="kdrag0n"
           fetch="https://github.com/kdrag0n" />
   
   <!-- InstantNoodle -->
-<project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="pixel-devices" revision="eleven"/>
-<project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="pixel-devices" revision="eleven"/>
-<project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="pixel-devices" revision="eleven"/>
-<project path="device/oneplus/common" name="device_oneplus_common" remote="C-C" revision="eleven"/>
-<project path="vendor/oneplus/instantnoodle" name="vendor_oneplus_instantnoodle" remote="pixel-devices-blobs" revision="eleven"/>
-<project path="vendor/oneplus/sm8250-common" name="vendor_oneplus_sm8250-common" remote="pixel-devices-blobs" revision="eleven"/>
-<project path="vendor/oneplus/apps" name="Chandra-Chaganti/vendor_oneplus_apps" remote="gitlab-source" revision="eleven"/>
+<project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="AICP"/>
+<project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="AICP"/>
+<project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="AICP"/>
+<project path="device/oneplus/common" name="device_oneplus_common" remote="AICP"/>
+<project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="lineage-18.1"/>
+<project path="vendor/opcamera" name="vendor_opcamera" remote="camera"/>
 
 <!-- If Needed -->
 <!-- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master"/> -->
