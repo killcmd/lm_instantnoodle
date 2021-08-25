@@ -3,6 +3,9 @@
 <remote name="lineage-18.1"
           fetch="https://github.com/TheMuppets"
           revision="lineage-18.1" />
+<remote name="killcmd"
+          fetch="https://github.com/killcmd"
+          revision="derp" />
 <remote name="EVOX"
           fetch="https://github.com/Evolution-X-Devices"
           revision="elle" />
@@ -14,13 +17,13 @@
   
   <!-- InstantNoodle -->
 <project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="EVOX"/>
-<project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="EVOX"/>
-<project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="EVOX"/>
+<project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="killcmd"/>
+<project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="killcmd"/>
 <project path="device/oneplus/common" name="device_oneplus_common" remote="EVOX"/>
 <project path="vendor/oneplus" name="vendor_oneplus-new" remote="EVOX"/>
 <project path="vendor/oneplus/camera/sm8250" name="vendor_oneplus_camera" remote="camera"/>
 
 <!-- If Needed -->
-<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master"/>
+<!--<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master"/>-->
           
 </manifest>
