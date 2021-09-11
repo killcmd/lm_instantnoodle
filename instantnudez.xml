@@ -6,9 +6,12 @@
 <remote name="Derp"
           fetch="https://github.com/Derpfest-Devices"
           revision="derp" />
-<remote name="killcmd"
+<remote name="personal"
           fetch="https://github.com/killcmd"
           revision="derp" />
+<remote name="common"
+          fetch="https://github.com/killcmd"
+          revision="df" />
 <remote name="EVOX"
           fetch="https://github.com/Evolution-X-Devices"
           revision="elle" />
@@ -20,8 +23,8 @@
   
   <!-- InstantNoodle -->
 <project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="Derp"/>
-<project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="killcmd"/>
-<project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="killcmd"/>
+<project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="personal"/>
+<project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="common"/>
 <project path="device/oneplus/common" name="device_oneplus_common" remote="EVOX"/>
 <project path="vendor/oneplus" name="vendor_oneplus-new" remote="EVOX"/>
 <project path="vendor/oneplus/camera/sm8250" name="vendor_oneplus_camera" remote="camera"/>
