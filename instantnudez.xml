@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="lineage-18.1"
-          fetch="https://github.com/TheMuppets"
-          revision="lineage-18.1" />
 <remote name="Derp"
           fetch="https://github.com/Derpfest-Devices"
           revision="derp" />
+<remote name="Derp-11"
+          fetch="https://github.com/Derpfest-Devices"
+          revision="11" />
 <remote name="personal"
           fetch="https://github.com/killcmd"
           revision="derp" />
 <remote name="common"
           fetch="https://github.com/killcmd"
           revision="df" />
-<remote name="EVOX"
-          fetch="https://github.com/Evolution-X-Devices"
-          revision="elle" />
 <remote name="camera"
           fetch="https://gitlab.com/anierin.t.bliss"
           revision="sm8250" />
@@ -25,8 +22,8 @@
 <project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="Derp"/>
 <project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="personal"/>
 <project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="common"/>
-<project path="device/oneplus/common" name="device_oneplus_common" remote="EVOX"/>
-<project path="vendor/oneplus" name="vendor_oneplus-new" remote="EVOX"/>
+<project path="device/oneplus/common" name="device_oneplus_common" remote="Derp-11"/>
+<project path="vendor/oneplus" name="vendor_oneplus" remote="Derp"/>
 <project path="vendor/oneplus/camera/sm8250" name="vendor_oneplus_camera" remote="camera"/>
 
 <!-- If Needed -->
