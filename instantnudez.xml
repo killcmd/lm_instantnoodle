@@ -23,7 +23,7 @@
 <project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="personal"/>
 <project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="common"/>
 <project path="device/oneplus/common" name="device_oneplus_common" remote="Derp-11"/>
-<project path="vendor/oneplus" name="vendor_oneplus" remote="Derp"/>
+<project path="vendor/oneplus" name="vendor_oneplus" remote="Derp"-11/>
 <project path="vendor/oneplus/camera/sm8250" name="vendor_oneplus_camera" remote="camera"/>
 
 <!-- If Needed -->
