@@ -18,6 +18,9 @@
 <remote name="common"
           fetch="https://github.com/killcmd"
           revision="8t" />
+<remote name="AOSPA"
+          fetch="https://github.com/AOSPA"
+          revision="ruby" />
 <remote name="camera"
           fetch="https://gitlab.com/anierin.t.bliss"
           revision="sm8250" />
@@ -30,6 +33,7 @@
   
   <!-- InstantNoodle -->
 <project path="kernel/oneplus/sm8250" name="Radioactive_kernel_oneplus8" remote="kernel"/>
+<project path="device/qcom/common" name="android_device_qcom_common" remote="AOSPA"/>
 <project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle1" remote="personal"/>
 <project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="common"/>
 <project path="device/oneplus/common" name="device_oneplus_common" remote="vendor"/>
