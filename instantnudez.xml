@@ -14,7 +14,7 @@
           revision="11" />
 <remote name="personal"
           fetch="https://github.com/killcmd"
-          revision="derp" />
+          revision="df" />
 <remote name="common"
           fetch="https://github.com/killcmd"
           revision="8t" />
@@ -27,14 +27,14 @@
 <remote name="kdrag0n"
           fetch="https://github.com/kdrag0n" />
 <remote name="kernel"
-          fetch="https://github.com/acuicultor"
-          revision="rebase" />
+          fetch="https://github.com/Derpfest-Devices"
+          revision="ra-8t" />
           
   
   <!-- InstantNoodle -->
-<project path="kernel/oneplus/sm8250" name="Radioactive_kernel_oneplus8" remote="kernel"/>
+<project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="kernel"/>
 <project path="device/qcom/common" name="android_device_qcom_common" remote="AOSPA"/>
-<project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle1" remote="personal"/>
+<project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle2" remote="personal"/>
 <project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="common"/>
 <project path="device/oneplus/common" name="device_oneplus_common" remote="vendor"/>
 <project path="vendor/oneplus" name="vendor_oneplus-new" remote="vendor"/>
