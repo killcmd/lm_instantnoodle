@@ -3,9 +3,9 @@
 <remote name="vendor"
           fetch="https://github.com/Evolution-X-Devices"
           revision="elle" />
-<remote name="los"
-          fetch="https://github.com/LineageOS"
-          revision="lineage-18.1" />
+<remote name="AICP"
+          fetch="https://github.com/AICP"
+          revision="r11.1" />
 <remote name="Derp"
           fetch="https://github.com/Derpfest-Devices"
           revision="derp" />
@@ -17,28 +17,28 @@
           revision="df" />
 <remote name="common"
           fetch="https://github.com/killcmd"
-          revision="8t" />
+          revision="df" />
 <remote name="AOSPA"
           fetch="https://github.com/AOSPA"
           revision="ruby" />
 <remote name="camera"
-          fetch="https://gitlab.com/anierin.t.bliss"
-          revision="sm8250" />
+          fetch="https://gitlab.com/hermesconrad"
+          revision="r11.1-oneplus8" />
 <remote name="kdrag0n"
           fetch="https://github.com/kdrag0n" />
 <remote name="kernel"
-          fetch="https://github.com/Derpfest-Devices"
-          revision="ra-8t" />
+          fetch="https://github.com/AICP"
+          revision="r11.1" />
           
   
   <!-- InstantNoodle -->
-<project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="kernel"/>
-<project path="device/qcom/common" name="android_device_qcom_common" remote="AOSPA"/>
-<project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle2" remote="personal"/>
-<project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="common"/>
-<project path="device/oneplus/common" name="device_oneplus_common" remote="vendor"/>
+<project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="AICP"/>
+<project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle-1" remote="personal"/>
+<project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common-1" remote="common"/>
+<project path="device/oneplus/common" name="device_oneplus_common" remote="AICP"/>
+<project path="device/oneplus/settings" name="device_oneplus_settings" remote="vendor"/>
 <project path="vendor/oneplus" name="vendor_oneplus-new" remote="vendor"/>
-<project path="vendor/oneplus/camera/sm8250" name="vendor_oneplus_camera" remote="camera"/>
+<project path="vendor/opcamera" name="vendor/vendor_opcamera" remote="camera"/>
 
 <!-- If Needed -->
 <!--<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master"/>-->
