@@ -36,7 +36,7 @@
 <project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle-1" remote="personal"/>
 <project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common-1" remote="common"/>
 <project path="device/oneplus/common" name="device_oneplus_common" remote="AICP"/>
-<project path="device/oneplus/settings" name="device_oneplus_settings" remote="vendor"/>
+<project path="device/oneplus/settings" name="device_oneplus_settings" remote="AICP"/>
 <project path="vendor/oneplus" name="vendor_oneplus-new" remote="vendor"/>
 <project path="vendor/opcamera" name="vendor/vendor_opcamera" remote="camera"/>
 
