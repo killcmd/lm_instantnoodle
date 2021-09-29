@@ -3,13 +3,10 @@
 <remote name="vendor"
           fetch="https://github.com/Evolution-X-Devices"
           revision="elle" />
-<remote name="AICP"
-          fetch="https://github.com/AICP"
-          revision="r11.1" />
-<remote name="Derp"
+<remote name="3rd-kernel"
           fetch="https://github.com/Derpfest-Devices"
-          revision="derp" />
-<remote name="Derp-11"
+          revision="ra-8t" />
+<remote name="3rd"
           fetch="https://github.com/Derpfest-Devices"
           revision="11" />
 <remote name="personal"
@@ -18,25 +15,19 @@
 <remote name="common"
           fetch="https://github.com/killcmd"
           revision="df" />
-<remote name="AOSPA"
-          fetch="https://github.com/AOSPA"
-          revision="ruby" />
 <remote name="camera"
           fetch="https://gitlab.com/hermesconrad"
           revision="r11.1-oneplus8" />
 <remote name="kdrag0n"
           fetch="https://github.com/kdrag0n" />
-<remote name="kernel"
-          fetch="https://github.com/AICP"
-          revision="r11.1" />
+
           
   
   <!-- InstantNoodle -->
-<project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="AICP"/>
-<project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle-1" remote="personal"/>
-<project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common-1" remote="common"/>
-<project path="device/oneplus/common" name="device_oneplus_common" remote="AICP"/>
-<project path="device/oneplus/settings" name="device_oneplus_settings" remote="AICP"/>
+<project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="3rd-kernel"/>
+<project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="personal"/>
+<project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="common"/>
+<project path="device/oneplus/common" name="device_oneplus_common" remote="3rd"/>
 <project path="vendor/oneplus" name="vendor_oneplus-new" remote="vendor"/>
 <project path="vendor/opcamera" name="vendor/vendor_opcamera" remote="camera"/>
 
