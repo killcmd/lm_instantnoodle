@@ -5,10 +5,10 @@
           revision="elle" />
 <remote name="3rd-kernel"
           fetch="https://github.com/Derpfest-Devices"
-          revision="ra-8t" />
+          revision="ra-8pro" />
 <remote name="3rd"
-          fetch="https://github.com/Derpfest-Devices"
-          revision="11" />
+          fetch="https://github.com/Evolution-X-Devices"
+          revision="elle" />
 <remote name="personal"
           fetch="https://github.com/killcmd"
           revision="df" />
@@ -25,8 +25,8 @@
   
   <!-- InstantNoodle -->
 <project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="3rd-kernel"/>
-<project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="personal"/>
-<project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="common"/>
+<project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle-1" remote="personal"/>
+<project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common-2" remote="common"/>
 <project path="device/oneplus/common" name="device_oneplus_common" remote="3rd"/>
 <project path="vendor/oneplus" name="vendor_oneplus-new" remote="vendor"/>
 <project path="vendor/opcamera" name="vendor/vendor_opcamera" remote="camera"/>
