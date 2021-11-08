@@ -2,7 +2,7 @@
 <remote name="vendor" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" revision="eleven"/>
 <remote name="3rd-kernel" fetch="https://github.com/Derpfest-Devices" revision="derp"/>
 <remote name="3rd" fetch="https://github.com/Evolution-X-Devices" revision="elle"/>
-<remote name="personal" fetch="https://github.com/killcmd" revision="df"/>
+<remote name="personal" fetch="https://github.com/killcmd" revision="aex"/>
 <remote name="common" fetch="https://github.com/killcmd" revision="common"/>
 <remote name="camera" fetch="https://gitlab.com/hermesconrad" revision="r11.1-oneplus8"/>
 <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
