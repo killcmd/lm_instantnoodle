@@ -14,5 +14,5 @@
 <project path="vendor/oneplus/sm8250-common" name="vendor_oneplus_sm8250-common" remote="vendor"/>
 <project path="vendor/opcamera" name="vendor/vendor_opcamera" remote="camera"/>
 <!-- If Needed -->
-<!--<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master"/>-->
+<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master"/>
 </manifest>
