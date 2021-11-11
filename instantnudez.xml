@@ -1,18 +1,18 @@
 <manifest>
-<remote name="vendor" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" revision="eleven"/>
+<remote name="vendor" fetch="https://github.com/Evolution-X-Devices" revision="elle"/>
 <remote name="3rd-kernel" fetch="https://github.com/Derpfest-Devices" revision="derp"/>
 <remote name="3rd" fetch="https://github.com/Evolution-X-Devices" revision="elle"/>
 <remote name="personal" fetch="https://github.com/killcmd" revision="aex"/>
 <remote name="common" fetch="https://github.com/killcmd" revision="common"/>
-<remote name="camera" fetch="https://gitlab.com/hermesconrad" revision="r11.1-oneplus8"/>
+<remote name="camera" fetch="https://gitlab.com/anierin.t.bliss" revision="sm8250"/>
 <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
 <!-- InstantNoodle -->
 <project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="3rd-kernel"/>
 <project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="personal"/>
 <project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common-1" remote="common"/>
-<project path="vendor/oneplus/instantnoodle" name="vendor_oneplus_instantnoodle" remote="vendor"/>
-<project path="vendor/oneplus/sm8250-common" name="vendor_oneplus_sm8250-common" remote="vendor"/>
-<project path="vendor/opcamera" name="vendor/vendor_opcamera" remote="camera"/>
+<project path="vendor/oneplus" name="vendor_oneplus-new" remote="vendor"/>
+<!--<project path="vendor/oneplus/sm8250-common" name="vendor_oneplus_sm8250-common" remote="vendor"/>-->
+<project path="vendor/oneplus/camera" name="vendor_oneplus_camera" remote="camera"/>
 <!-- If Needed -->
 <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master"/>
 </manifest>
