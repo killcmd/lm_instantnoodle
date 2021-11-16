@@ -1,5 +1,5 @@
 <manifest>
-<remote name="vendor" fetch="https://github.com/TheMuppets" revision="lineage-18.1/>
+<remote name="vendor" fetch="https://github.com/TheMuppets" revision="lineage-18.1"/>
 <remote name="3rd-kernel" fetch="https://github.com/Derpfest-Devices" revision="ra-8pro"/>
 <remote name="personal" fetch="https://github.com/killcmd" revision="aex"/>
 <remote name="common" fetch="https://github.com/killcmd" revision="common"/>
