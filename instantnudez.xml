@@ -1,5 +1,5 @@
 <manifest>
-<remote name="vendor" fetch="https://github.com/Havoc-OS-OnePlus-8-Series" revision="eleven"/>
+<remote name="vendor" fetch="https://github.com/TheMuppets" revision="lineage-18.1/>
 <remote name="3rd-kernel" fetch="https://github.com/Derpfest-Devices" revision="ra-8pro"/>
 <remote name="personal" fetch="https://github.com/killcmd" revision="aex"/>
 <remote name="common" fetch="https://github.com/killcmd" revision="common"/>
@@ -9,8 +9,7 @@
 <project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="3rd-kernel"/>
 <project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="personal"/>
 <project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common-1" remote="common"/>
-<project path="vendor/oneplus/instantnoodle" name="vendor_oneplue_instantnoodle" remote="vendor"/>
-<project path="vendor/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="vendor"/>
+<project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="vendor"/>
 <project path="vendor/oneplus/camera" name="vendor_oneplus_camera" remote="camera"/>
 <!-- If Needed -->
 <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master"/>
