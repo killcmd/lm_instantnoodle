@@ -1,5 +1,5 @@
 <manifest>
-<remote name="3rd-kernel" fetch="https://github.com/Derpfest-Devices" revision="ra-8pro"/>
+<remote name="3rd-kernel" fetch="https://github.com/killcmd" revision="aosp-11"/>
 <remote name="personal" fetch="https://github.com/killcmd" revision="aex"/>
 <remote name="common" fetch="https://github.com/killcmd" revision="common"/>
 <remote name="camera" fetch="https://gitlab.com/anierin.t.bliss" revision="sm8250"/>
