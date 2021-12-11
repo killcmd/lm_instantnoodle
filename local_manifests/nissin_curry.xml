@@ -1,9 +1,9 @@
 <manifest>
-<remote name="3rd-kernel" fetch="https://github.com/killcmd" revision="aosp-11"/>
+<remote name="3rd-kernel" fetch="https://github.com/killcmd" revision="aosp11"/>
 <remote name="personal" fetch="https://github.com/killcmd" revision="aex"/>
 <remote name="common" fetch="https://github.com/killcmd" revision="common"/>
 <remote name="camera" fetch="https://gitlab.com/anierin.t.bliss" revision="sm8250"/>
-<remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
+<remote name="clanger" fetch="https://github.com/AOSP-11" revision="11"/>
 <!-- InstantNoodle -->
 <project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="3rd-kernel"/>
 <project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="personal"/>
@@ -12,6 +12,6 @@
 <project path="vendor/oneplus/camera" name="vendor_oneplus_camera" remote="camera"/>
 
 <!-- If Needed -->
-<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master"/>
+<project path="prebuilts/clang/host/linux-x86/clang-r428724" name="prebuilts_clang_host_linux-x86_clang-r428724" remote="clanger"/>
 
 </manifest>
