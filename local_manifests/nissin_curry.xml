@@ -1,15 +1,12 @@
 <manifest>
-<remote name="3rd-kernel" fetch="https://github.com/killcmd" revision="aosp11"/>
-<remote name="personal" fetch="https://github.com/killcmd" revision="aex"/>
-<remote name="common" fetch="https://github.com/killcmd" revision="common"/>
-<remote name="camera" fetch="https://gitlab.com/anierin.t.bliss" revision="sm8250"/>
+<remote name="kernel" fetch="https://github.com/killcmd" revision="snow"/>
+<remote name="personal" fetch="https://gitlab.com/killcmd" revision="AEX9"/>
+<remote name="vendor" fetch="https://gitlab.com/killcmd" revision="12"/>
 <remote name="clanger" fetch="https://github.com/AOSP-11" revision="11"/>
 <!-- InstantNoodle -->
-<project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="3rd-kernel"/>
-<project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="personal"/>
-<project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common-1" remote="common"/>
-<project path="vendor/oneplus" name="vendor_oneplus-new" remote="common"/>
-<project path="vendor/oneplus/camera" name="vendor_oneplus_camera" remote="camera"/>
+<project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250-2" remote="kernel"/>
+<project path="device/oneplus/instantnoodle" name="ramen" remote="personal"/>
+<project path="vendor/oneplus" name="vendor_oneplus" remote="vendor"/>
 
 <!-- If Needed -->
 <project path="prebuilts/clang/host/linux-x86/clang-r428724" name="prebuilts_clang_host_linux-x86_clang-r428724" remote="clanger"/>
