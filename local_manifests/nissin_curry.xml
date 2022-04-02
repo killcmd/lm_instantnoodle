@@ -1,11 +1,12 @@
 <manifest>
 <remote name="kernel" fetch="https://github.com/killcmd" revision="snow"/>
-<remote name="personal" fetch="https://gitlab.com/killcmd" revision="AEX9"/>
+<remote name="personal" fetch="https://gitlab.com/killcmd" revision="aosp"/>
 <remote name="vendor" fetch="https://gitlab.com/killcmd" revision="12"/>
 <remote name="clanger" fetch="https://github.com/AOSP-11" revision="11"/>
 <!-- InstantNoodle -->
 <project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250-2" remote="kernel"/>
 <project path="device/oneplus/instantnoodle" name="ramen" remote="personal"/>
+<project path="device/oneplus/sm8250-common" name="Shoyu" remote="personal"/>
 <project path="vendor/oneplus" name="vendor_oneplus" remote="vendor"/>
 
 <!-- If Needed -->
