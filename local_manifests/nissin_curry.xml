@@ -3,11 +3,13 @@
 <remote name="personal" fetch="https://gitlab.com/killcmd" revision="arrow"/>
 <remote name="vendor" fetch="https://gitlab.com/killcmd" revision="12"/>
 <remote name="clanger" fetch="https://github.com/AOSP-11" revision="11"/>
+<remote name="lawnchair" fetch="https://github.com/arter97" revision="master"/>
 <!-- InstantNoodle -->
 <project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250-2" remote="kernel"/>
 <project path="device/oneplus/instantnoodle" name="ramen" remote="personal"/>
 <project path="device/oneplus/sm8250-common" name="Shoyu" remote="personal"/>
 <project path="vendor/oneplus" name="vendor_oneplus" remote="vendor"/>
+<project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="lawnchair"/>
 
 <!-- If Needed -->
 <project path="prebuilts/clang/host/linux-x86/clang-r428724" name="prebuilts_clang_host_linux-x86_clang-r428724" remote="clanger"/>
