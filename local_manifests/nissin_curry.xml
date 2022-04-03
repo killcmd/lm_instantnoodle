@@ -1,6 +1,6 @@
 <manifest>
 <remote name="kernel" fetch="https://github.com/killcmd" revision="snow"/>
-<remote name="personal" fetch="https://gitlab.com/killcmd" revision="aosp"/>
+<remote name="personal" fetch="https://gitlab.com/killcmd" revision="arrow"/>
 <remote name="vendor" fetch="https://gitlab.com/killcmd" revision="12"/>
 <remote name="clanger" fetch="https://github.com/AOSP-11" revision="11"/>
 <!-- InstantNoodle -->
