@@ -1,15 +1,13 @@
 <manifest>
 <remote name="kernel" fetch="https://github.com/killcmd" revision="12"/>
 <remote name="personal" fetch="https://github.com/killcmd" revision="spark"/>
-<remote name="personal-lab" fetch="https://gitlab.com/killcmd" revision="spark"/>
 <remote name="vendor" fetch="https://gitlab.com/killcmd" revision="12"/>
-<remote name="camera" fetch="https://gitlab.com/killcmd" revision="main"/>
+
 
 <!-- InstantNoodle -->
 <project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="kernel"/>
-<project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="personal"/>
-<project path="device/oneplus/sm8250-common" name="Shoyu" remote="personal-lab"/>
-<project path="vendor/oneplus/camera" name="vendor_oneplus_camera" remote="camera"/>
+<project path="device/oneplus/instantnoodle" name="android_device_oneplus_instantnoodle" remote="personal"/>
+<project path="device/oneplus/sm8250-common" name="android_device_oneplus_sm8250-common" remote="personal"/>
 <project path="vendor/oneplus" name="vendor_oneplus" remote="vendor"/>
 
 <!-- Toolchain -->
