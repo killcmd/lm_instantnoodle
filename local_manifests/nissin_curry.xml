@@ -1,6 +1,6 @@
 <manifest>
 <remote name="kernel" fetch="https://github.com/killcmd" revision="12"/>
-<remote name="personal" fetch="https://github.com/killcmd" revision="spark"/>
+<remote name="personal" fetch="https://github.com/killcmd" revision="derp"/>
 <remote name="vendor" fetch="https://gitlab.com/killcmd" revision="12"/>
 <remote name="toolchain" fetch="https://gitlab.com/dakkshesh07" revision="Neutron-15"/>
 
