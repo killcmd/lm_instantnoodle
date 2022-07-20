@@ -1,16 +1,16 @@
 <manifest>
 <remote name="kernel" fetch="https://github.com/killcmd" revision="12"/>
 <remote name="personal" fetch="https://github.com/killcmd" revision="spark"/>
-<remote name="vendor" fetch="https://gitlab.com/killcmd" revision="12"/>
+<remote name="vendor" fetch="https://github.com/killcmd" revision="12-beta"/>
 <remote name="toolchain" fetch="https://gitlab.com/dakkshesh07" revision="Neutron-15"/>
 
 
 <!-- InstantNoodle -->
 <project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="kernel"/>
-<project path="device/oneplus/instantnoodle" name="android_device_oneplus_instantnoodle" remote="personal"/>
-<project path="device/oneplus/sm8250-common" name="android_device_oneplus_sm8250-common" remote="personal"/>
-<project path="vendor/oneplus" name="vendor_oneplus" remote="vendor"/>
+<project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="personal"/>
+<project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="personal"/>
+<project path="vendor/oneplus" name="vendor_oneplus-new" remote="vendor"/>
 
 <!-- Toolchain -->
-<project path="prebuilts/clang/host/linux-x86/clang-neutron" name="neutron-clang" remote="toolchain"/>
+<!--<project path="prebuilts/clang/host/linux-x86/clang-neutron" name="neutron-clang" remote="toolchain"/>-->
 </manifest>
