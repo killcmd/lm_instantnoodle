@@ -1,5 +1,5 @@
 <manifest>
-<remote name="kernel" fetch="https://github.com/killcmd" revision="12"/>
+<remote name="kernel" fetch="https://github.com/killcmd" revision="12-old"/>
 <remote name="personal" fetch="https://github.com/killcmd" revision="derp"/>
 <remote name="vendor" fetch="https://github.com/killcmd" revision="12"/>
 <remote name="toolchain" fetch="https://gitlab.com/dakkshesh07" revision="Neutron-15"/>
@@ -12,5 +12,5 @@
 <project path="vendor/oneplus" name="vendor_oneplus" remote="vendor"/>
 
 <!-- Toolchain -->
-<project path="prebuilts/clang/host/linux-x86/clang-neutron" name="neutron-clang" remote="toolchain"/>
+<!--<project path="prebuilts/clang/host/linux-x86/clang-neutron" name="neutron-clang" remote="toolchain"/>-->
 </manifest>
