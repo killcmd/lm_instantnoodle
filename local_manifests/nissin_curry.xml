@@ -1,5 +1,5 @@
 <manifest>
-<remote name="kernel" fetch="https://github.com/killcmd" revision="12"/>
+<remote name="kernel" fetch="https://github.com/killcmd" revision="12-old"/>
 <remote name="personal" fetch="https://github.com/killcmd" revision="cherish"/>
 <remote name="vendor" fetch="https://github.com/killcmd" revision="12"/>
 <remote name="toolchain" fetch="https://github.com/AOSP-12" revision="12"/>
@@ -12,5 +12,5 @@
 <project path="vendor/oneplus" name="vendor_oneplus" remote="vendor"/>
 
 <!-- Toolchain -->
-<project path="prebuilts/clang/host/linux-x86/clang-r445002" name="prebuilts_clang_host_linux-x86_clang-r445002" remote="toolchain"/>
+<!--<project path="prebuilts/clang/host/linux-x86/clang-r445002" name="prebuilts_clang_host_linux-x86_clang-r445002" remote="toolchain"/>-->
 </manifest>
