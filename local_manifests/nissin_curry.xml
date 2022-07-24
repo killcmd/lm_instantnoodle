@@ -2,7 +2,7 @@
 <remote name="kernel" fetch="https://github.com/killcmd" revision="12"/>
 <remote name="personal" fetch="https://github.com/killcmd" revision="aex"/>
 <remote name="vendor" fetch="https://github.com/killcmd" revision="12"/>
-<remote name="toolchain" fetch="https://gitlab.com/AOSP-12" revision="Neutron-15"/>
+<remote name="toolchain" fetch="https://gitlab.com/AOSP-12" revision="12"/>
 
 
 <!-- InstantNoodle -->
