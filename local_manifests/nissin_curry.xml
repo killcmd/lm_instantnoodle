@@ -2,7 +2,7 @@
 <remote name="kernel" fetch="https://github.com/killcmd" revision="12"/>
 <remote name="personal" fetch="https://github.com/killcmd" revision="aex"/>
 <remote name="vendor" fetch="https://github.com/killcmd" revision="12"/>
-<remote name="toolchain" fetch="https://gitlab.com/dakkshesh07" revision="Neutron-15"/>
+<remote name="toolchain" fetch="https://gitlab.com/AOSP-12" revision="Neutron-15"/>
 
 
 <!-- InstantNoodle -->
@@ -12,5 +12,5 @@
 <project path="vendor/oneplus" name="vendor_oneplus" remote="vendor"/>
 
 <!-- Toolchain -->
-<!--<project path="prebuilts/clang/host/linux-x86/clang-neutron" name="neutron-clang" remote="toolchain"/>-->
+<project path="prebuilts/clang/host/linux-x86/clang-r445002" name="prebuilts_clang_host_linux-x86_clang-r445002" remote="toolchain"/>
 </manifest>
