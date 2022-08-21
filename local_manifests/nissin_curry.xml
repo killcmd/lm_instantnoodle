@@ -1,16 +1,18 @@
 <manifest>
 <remote name="kernel" fetch="https://github.com/killcmd" revision="12"/>
-<remote name="personal" fetch="https://github.com/killcmd" revision="spark"/>
+<remote name="personal" fetch="https://github.com/killcmd" revision="arrow"/>
+<remote name="common" fetch="https://github.com/killcmd" revision="common"/>
 <remote name="vendor" fetch="https://github.com/killcmd" revision="12-beta"/>
-<remote name="toolchain" fetch="https://gitlab.com/dakkshesh07" revision="Neutron-15"/>
+<remote name="toolchain" fetch="https://github.com/kdrag0n" revision="master"/>
 
 
 <!-- InstantNoodle -->
 <project path="kernel/oneplus/sm8250" name="kernel_oneplus_sm8250" remote="kernel"/>
 <project path="device/oneplus/instantnoodle" name="device_oneplus_instantnoodle" remote="personal"/>
-<project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="personal"/>
+<project path="device/oneplus/sm8250-common" name="device_oneplus_sm8250-common" remote="common"/>
+  <project path="hardware/oplus" name="hardware_oplus" remote="personal"/>
 <project path="vendor/oneplus" name="vendor_oneplus-new" remote="vendor"/>
 
 <!-- Toolchain -->
-<!--<project path="prebuilts/clang/host/linux-x86/clang-neutron" name="neutron-clang" remote="toolchain"/>-->
+<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="toolchain"/>
 </manifest>
