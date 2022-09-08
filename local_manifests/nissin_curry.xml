@@ -1,8 +1,8 @@
 <manifest>
-<remote name="kernel" fetch="https://github.com/killcmd" revision="12"/>
+<remote name="kernel" fetch="https://github.com/killcmd" revision="13"/>
 <remote name="personal" fetch="https://github.com/killcmd" revision="arrow"/>
 <remote name="common" fetch="https://github.com/killcmd" revision="common"/>
-<remote name="vendor" fetch="https://github.com/killcmd" revision="12-beta"/>
+<remote name="vendor" fetch="https://github.com/killcmd" revision="13"/>
 <remote name="toolchain" fetch="https://github.com/kdrag0n" revision="master"/>
 
 
